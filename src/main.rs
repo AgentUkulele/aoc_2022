@@ -3,11 +3,13 @@
 mod day1;
 mod day2;
 mod day3;
+mod day4;
 
 fn main() {
-    day_1();
-    day_2();
-    day_3();
+    // day_1();
+    // day_2();
+    // day_3();
+    day_4();
 }
 
 fn day_1() {
@@ -32,4 +34,12 @@ fn day_3() {
 
     let day3_2 = day3::day3_2();
     println!("{day3_2}");
+}
+
+fn day_4() {
+    let day4_1 = day4::day4_1();
+    println!("{day4_1}");
+
+    let day4_2 = day4::day4_2();
+    println!("{day4_2}");
 }
