@@ -9,6 +9,8 @@ static FILE: &'static str = include_str!("./day5.prod");
 static FILE: &'static str = include_str!("./day5.test");
 
 pub fn day5_1() -> String {
+
+    println!("this is chunk #1");
     // let mut stacks: Vec<VecDeque<String>> = Vec::new();
     let (mut graph, instructions) = FILE.split_once("\n\n").unwrap();
 
